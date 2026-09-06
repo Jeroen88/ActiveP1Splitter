@@ -28,5 +28,10 @@ This repository shows a few examples of how to use it.
 
 ### Which P1 RJ12 socket is connected to what GPIO's
 The central RJ12 socket is connected to the input P1, while facing the sockets up, the left socket is the first output P1 and the right socket is the second output P1.
+|                  | ESP32-S2                                  | ESP32-S3                                    |
+|------------------|-------------------------------------------|---------------------------------------------|
+| Input P1         | P1_IN_RX = GPIO17, P1_IN_RTS =  GPIO21     | P1_IN_RX = GPIO17, P1_IN_RTS =  GPIO21       |
+| First output P1  | P1_OUT_1_TX = GPIO7, P1_OUT_1_CTS =  GPIO4 | P1_OUT_1_TX = GPIO12, P1_OUT_1_CTS =  GPIO5  |
+| Second output P1 | P1_OUT_2_TX = GPIO18, P1_OUT_2_CTS =  16       | P1_OUT_2_TX = GPIO18, P1_OUT_2_CTS =  GPIO16 |
 
 ### Enjoy playing around with it!
