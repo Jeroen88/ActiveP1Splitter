@@ -1,7 +1,7 @@
 # ActiveP1Splitter
 Firmware for the Fully Programmable Active P1 Splitter on my Tindie shop https://www.tindie.com/products/jeroen88/p1-port-splitter-fully-programmable/
 
-The Fully Programmable Active P1 Splitter is used to split the P1 port on a Dutch, Belgian, Luxembourg, Austrian and possibly other con=untries that adhere to the DSMR standard into two ports.
+The Fully Programmable Active P1 Splitter is used to split the P1 port on a Dutch, Belgian, Luxembourg, Austrian and possibly other conuntries that adhere to the DSMR standard into two ports.
 
 An ESP32-S2 or an ESP32-S3 is used to read from the P1 input port and next to write to the two P1 output ports. Because a microcontroller is used, the input data could be 1) modified if necessary, and / or 2) pushed e.g. into a home automation system like Home Assistant without using an extra dongle. 
 
