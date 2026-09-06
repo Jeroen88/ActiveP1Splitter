@@ -1,0 +1,2 @@
+# Most basic example
+This is the most basic example for the splitter to use. It uses two HardwareSerials. HardwareSerial Serial1 is used to read from the input P1 port, HardwareSerial Serial0 is used to write to the two output P1 ports. The output of this serial's UART is routed to two different GPIO's, thus driving both P1 outputs using just one Serial. The use of the RTS pins is omitted, mostly because almost no P1 device makes use of this signal (almost always tight to +5v)
