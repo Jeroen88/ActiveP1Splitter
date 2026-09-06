@@ -14,3 +14,7 @@ Because both outputs are fully independent, both outputs can duplicate the exact
 The hardware offers galvanic isolated ports using fast optocouplers for the data and normal optocouplers for the RTS pin. The input RTS pin is pulled to +5v. This is all DSMR standard compliant.
 
 This repository shows a few examples of how to use it.
+
+The central RJ12 socket is connected to the input P1, while facing the sockets up, the left socket is the first output P1 and the right socket is the second output P1.
+
+Enjoy playing around with it!
